@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="icons/siteicon.png">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/dev-paintpage.css" type="text/css">
+<title>Painter!</title>
+</head>
+<body>
+    <i id="slink">slinky?</i>
+    <canvas id="paintscreen"></canvas>
+<div id="toolbar">
+<button id="toolbar-icon-button" value="OFF"><img src="icons/icon1.png" id="toolbar-icon"></button>
+<div id="toolbar-content">
+    <p><i>Use default rgb or create custom colors</i></p>
+    <div id="color-pallete"><div id="cpsquare">
+        <div class = "orb" id="redorb"><input class="colorValue" id="redVal" type="number" min=0 max=255></div>
+        <div class = "orb" id="greenorb"><input class="colorValue" id="greenVal" type="number" min=0 max=255></div>
+        <div class = "orb" id="blueorb"><input class="colorValue" id="blueVal" type="number" min=0 max=255></div>
+        <div class = "slider"><div id = "slideHandle"></div></div>
+        <div class = "orb" id="customorb"><div id="hexoutputcover">HEX: <span id="hexoutput"></span></div></div>
+    </div></div>
+    <div id="brushes"><div id="bsquare"></div></div>    
+</div>
+</div>
+<script src="js/paint.js"></script>
+</body>
+</html>

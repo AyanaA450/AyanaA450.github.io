@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <link href="css/dev-boom.css" rel="stylesheet">
+    <script src="js/boom.js"></script>
+</head>
+<body>
+    <div id="fps">Fps Counter: <span id="output"></span></div>
+    <canvas width = "1400" height = "620">
+    
+    </canvas>
+    <div id="buttonContainer">
+        
+        <button class="niceButton" id="spawn"><i>spawn</i></button>
+        <input placeholder="radius" class="wheelInputs" id="radius">
+        <input placeholder="x position" class="wheelInputs noCushion" id="xpos">
+        <input placeholder="y position" class="wheelInputs noCushion" id="ypos">
+        <input placeholder="x velocity" class="wheelInputs noCushion" id="xv">
+        <input placeholder="y velocity" class="wheelInputs noCushion" id="yv">
+        <button class="niceButton" id="genRandom"><i>random</i></button>
+        <input placeholder="# of random" class="wheelInputs noCushion" id="numb">
+        <button class="niceButtonClear" id="clear"><i>clear</i></button>
+        <button class="niceButtonPreset" id="wave-preset"><i>sinwave</i></button>
+        <button class="niceButtonPreset" id="normal-wave-preset"><i>wave</i></button>
+        <button class="niceButtonPreset" id="bell"><i>bellcurve</i></button>
+        <input placeholder="y Accel (default 9.8)" class="wheelGlobal" id="yAccelGlobal">
+        <input placeholder="x Accel (default 0)" class="wheelGlobal" id="xAccelGlobal">
+        
+    </div>
+</body>
+</html>
