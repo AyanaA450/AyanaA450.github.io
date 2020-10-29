@@ -1,0 +1,96 @@
+html{
+    width: 100%;
+    height:  100%;
+    overflow: hidden;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height:  100%;
+    margin: 0;
+}
+canvas{
+    position: relative;
+    margin: 27px 60px 25px 60px;
+    border: 2px dashed black;
+}
+#fps{
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
+.niceButton {
+    font-family: monospace, sans-serif;
+    height: 20px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10%;
+    border: 1px solid black;
+    margin: 0px 0px 0px 60px;
+    padding: 0px;
+}
+.niceButtonPreset {
+    font-family: monospace, sans-serif;
+    height: 20px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10%;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+.niceButtonClear {
+    font-family: monospace, sans-serif;
+    height: 20px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10%;
+    border: 1px solid black;
+    margin: 0px 60px 0px 60px;
+    padding: 0px;
+}
+.niceButtonPreset:active{
+    transform:translateY(4px);
+}
+.niceButtonClear:active{
+    transform:translateY(4px);
+}
+.niceButton:active{
+    transform:translateY(4px);
+}
+.niceButton:focus{
+    outline:0;
+}
+.niceButtonPreset:focus{
+    outline:0;
+}
+.niceButtonClear:focus{
+    outline:0;
+}
+.noCushion{
+    margin: 0px;
+    padding: 0px;
+}
+#buttonContainer{
+    margin-top: -10px;
+    height: 30px;
+}
+.wheelInputs{
+    width: 60px;
+    margin-bottom: 5px;
+}
+.wheelGlobal{
+    width: 150px;
+    margin-bottom: 5px;
+}
+#genRandom{
+    width: 50px;
+}
+#numb{
+   width: 75px;
+}
+#yAccelGlobal{
+    margin-left: 60px;
+}
