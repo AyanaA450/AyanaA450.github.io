@@ -17,6 +17,7 @@ canvas{
 #fps{
     margin: 0px;
     padding: 0px;
+    height: 18px;
     color: gray;
     font-style: italic;
     text-align: center;
