@@ -18,7 +18,7 @@ window.onload = function(){
     };
     
     physButton.onclick = function(){
-        location.href = "boom.html";
+        location.href = "ball.html";
     }
 
 }
